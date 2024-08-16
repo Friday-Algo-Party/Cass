@@ -6,10 +6,10 @@ import java.util.*;
 public class Main {
 public static void main(String[] args) throws IOException {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-    //시험을 본 과목의 개수 N을 입력을 받는다
-    int N = Integer.parseInt(br.readLine());
-    // 현재 성적을 입력받는다.
-    float[] scores = new float[N];
+
+    int N = Integer.parseInt(br.readLine()); //시험을 본 과목의 개수 N을 입력을 받는다
+
+    float[] scores = new float[N];  // 현재 성적을 입력받는다.
     StringTokenizer st = new StringTokenizer(br.readLine());
     for(int i=0; i<N; i++){
        scores[i] = Float.parseFloat(st.nextToken());
