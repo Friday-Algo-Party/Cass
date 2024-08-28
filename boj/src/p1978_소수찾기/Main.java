@@ -10,7 +10,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
-        BufferedReader br = new BufferedReader (new InputStreamReader(System.in));
+        BufferedReader br = new BufferedReader (new InputStreamReader(System.in));//입력받기
 
         int n = Integer.parseInt(br.readLine()); // 갯수 입력 받음
 
@@ -37,7 +37,7 @@ public class Main {
             return false;
         }
 
-        for (int k = 2; k <= Math.sqrt(num); k++ ){
+        for (int k = 2; k <= Math.sqrt(num); k++ ){  // 소수를 판별하는 공식
             if (num % k == 0) return false;          // 예를 들어 8을 생각해보면, 8 = 2 × 4입니다. 여기서 2는 8의 제곱근인 약 2.828보다 작고, 4는 크다.
                                                      // 제곱근을 기준으로 소수 여부를 확인한 후 제곱근 이상의 수를 검사할 필요가 없어짐을 알 수 있다.
         }
