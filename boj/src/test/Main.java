@@ -29,7 +29,7 @@ public class Main {
         }
 
 
-        ArrayList<String> al = new ArrayList<>(); //List는 제네릭과 같이씀
+        List<String> al = new ArrayList<>(); //List는 제네릭과 같이씀
         al.add("one"); // 배열값 추가 할 때 .add 사용한다.
         al.add("two");
 
