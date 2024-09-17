@@ -1,4 +1,4 @@
-package p2798블랙젝;
+package p2798블랙잭;
 
 import java.util.*;
 import java.io.*;
