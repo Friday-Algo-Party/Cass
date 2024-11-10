@@ -14,7 +14,8 @@ public class Main {
         int range = 1;
 
         while (range < n) {
-            range = range + (6 * count); //방의 갯수가 6의 배수 이다.
+
+            range = range + (6 * count); //방의 갯수가 6의 배수 이다
             count++;
 
         }
