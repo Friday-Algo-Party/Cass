@@ -18,7 +18,7 @@ public class Main {
             int b = Integer.parseInt(st.nextToken());
 
             System.out.println(a + b); // 두 숫자의 합을 출력합니다.
-            System.out.println(a + b);
+
         }
     }
 }
