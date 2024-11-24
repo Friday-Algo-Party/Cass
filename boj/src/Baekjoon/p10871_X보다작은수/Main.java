@@ -23,6 +23,7 @@ public class Main {
             if(arr[i] < x){
                 System.out.print(arr[i]+ " ");
                 System.out.print(arr[i]+ " ");
+                System.out.print(arr[i]+ " ");
             }
         }
 
