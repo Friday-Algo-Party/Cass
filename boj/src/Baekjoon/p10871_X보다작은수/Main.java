@@ -22,8 +22,6 @@ public class Main {
         for(int i = 0; i < n; i++){
             if(arr[i] < x){
                 System.out.print(arr[i]+ " ");
-                System.out.print(arr[i]+ " ");
-                System.out.print(arr[i]+ " ");
             }
         }
 
