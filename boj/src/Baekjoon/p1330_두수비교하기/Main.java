@@ -15,7 +15,7 @@ public class Main  {
         int b =  Integer.parseInt(st.nextToken());
 
 
-        if(a>b){
+        if(a>b){ //if문
             System.out.println(">");
         } else if (a<b) {
             System.out.println("<");
