@@ -15,7 +15,7 @@ public class Main {
         for (int i = 0; i < t; i++) {
             StringTokenizer st = new StringTokenizer(br.readLine());
             int a = Integer.parseInt(st.nextToken());
-            int b = Integer.parseInt(st.nextToken());
+            int b = Integer.parseInt(st.nextToken()); //토크나이저 사용
 
             System.out.println(a + b); // 두 숫자의 합을 출력합니다.
 
