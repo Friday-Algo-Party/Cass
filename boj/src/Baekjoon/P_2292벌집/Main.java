@@ -11,7 +11,7 @@ public class Main {
 
 
         int count = 1; //지나가는 방의 갯수 (초기 값이 1인 이유는 자기 자신 포함 )
-        int range = 1;
+        int range = 1; // 다시 확인??
 
         while (range < n) {
 
