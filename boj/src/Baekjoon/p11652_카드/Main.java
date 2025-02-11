@@ -13,6 +13,7 @@ public class Main {
             long m = Long.parseLong(br.readLine()); //카드에 적힌 수 읽어와서 m에저장
             map.put(m, map.getOrDefault(m, 0) + 1);//m이 map에 없으면 0, 있으면 해당 값 반환
                                                               //기존 값에 +1을 하여 등장 횟수를 저장
+                                                              //getOrDefault 이거 많이 쓴다. 정리해놓자.
         }
         int max = -1; //현재까지 찾은 최대 등장 횟수 저장 //입력개수가 0개이면 예외 발생
         long num = 0; //가장 많이 등장한 숫자를 저장할 변수
