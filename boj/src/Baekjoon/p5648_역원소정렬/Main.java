@@ -40,7 +40,7 @@ public class Main {
         }
     }
 
-
+                                                    //이부분 다시 복습
     private static long reverseNumber(long num) { // 숫자를 뒤집는 함수
         String reversedStr = new StringBuilder(String.valueOf(num)).reverse().toString();  //String.valueOf(num) num의 내용을 string타입으로 변경
         return Long.parseLong(reversedStr); // 뒤집힌 문자열을 다시 숫자로 변환
