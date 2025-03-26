@@ -37,6 +37,12 @@ public class Main {
         }
 
         System.out.println(isPossible ? sb.toString() : "NO");
-        //다시 풀어보기
+
+//        if (isPossible) {
+//            System.out.println(sb.toString());
+//        } else {
+//            System.out.println("NO");
+//        }
+
     }
 }
