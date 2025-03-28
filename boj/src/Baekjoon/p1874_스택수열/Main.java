@@ -39,5 +39,7 @@ public class Main {
         }
 
         System.out.println(sb);
+
+        //다른 방식 버전
     }
 }
